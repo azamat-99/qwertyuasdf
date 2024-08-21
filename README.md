@@ -1,3 +1,7 @@
+# video link of project
+
+See [video link](https://vitejs.dev/config/). p
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -12,7 +16,7 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 ## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+See [Vite Configuration Reference](https://vitejs.dev/config/). 
 
 ## Project Setup
 
