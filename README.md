@@ -1,6 +1,6 @@
 # video link of project
 
-See [video link](https://vitejs.dev/config/). p
+See [video link](https://drive.google.com/file/d/1vfDLxmIOYnnRCKG1hdSzC6T7W5cyy0ys/view?usp=drive_link). p
 
 # vue-project
 
