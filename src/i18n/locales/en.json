@@ -1,0 +1,16 @@
+{
+  "locale": {
+    "en": "English",
+    "ru": "Russian"
+  },
+  "episode": "Episode",
+  "character": "Character",
+  "characters": "Characters",
+  "location": "Location",
+  "server_status": "Server status",
+  "name": "Name",
+  "search": "Search",
+  "type": "Type",
+  "dimension": "Dimension",
+  "create_date": "Created date"
+}

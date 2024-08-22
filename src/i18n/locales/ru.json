@@ -1,0 +1,16 @@
+{
+  "locale": {
+    "en": "Английский",
+    "ru": "Русский"
+  },
+  "episode": "Эпизод",
+  "character": "Персонаж",
+  "characters": "Персонажы",
+  "location": "Локация",
+  "server_status": "Статус сервера",
+  "name": "Имя",
+  "search": "Поиск",
+  "type": "Тип",
+  "dimension": "Измерение",
+  "create_date": "Дата создания"
+}

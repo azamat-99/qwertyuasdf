@@ -5,6 +5,8 @@ import { onBeforeMount, ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import type { LocationQueryValue } from "vue-router";
 import { ElPagination, ElInput, ElButton } from "element-plus";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 onBeforeMount(fetchLocations);
 const route = useRoute();
@@ -28,24 +30,26 @@ const currentPage = (page: number) => {
     <!-- Filter -->
     <div class="grid sm:grid-cols-4 gap-5 py-8 px-2 m-4 border rounded-xl">
       <ElInput
-        placeholder="Name"
+        :placeholder="t('episode')"
         v-model="query.name"
         @keydown.enter="fetchLocations"
         clearable
       />
       <ElInput
-        placeholder="Type"
+        :placeholder="t('type')"
         v-model="query.type"
         @keydown.enter="fetchLocations"
         clearable
       />
       <ElInput
-        placeholder="Dimension"
+        :placeholder="t('dimension')"
         v-model="query.dimension"
         @keydown="fetchLocations"
         clearable
       />
-      <ElButton type="primary" @click="fetchLocations"> Search </ElButton>
+      <ElButton type="primary" @click="fetchLocations">
+        {{ t("search") }}</ElButton
+      >
     </div>
     <!-- Location card -->
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">

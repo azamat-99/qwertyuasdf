@@ -2,6 +2,8 @@
 import ArchiveCard from "@/components/card/card.vue";
 import { characters, fetchCharacters, query } from "@/store/character";
 import { onBeforeMount, computed } from "vue";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 onBeforeMount(fetchCharacters);
 </script>
@@ -10,7 +12,7 @@ onBeforeMount(fetchCharacters);
   <div class="px-4">
     <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
       <h2 class="text-4xl font-semibold text-black dark:text-zinc-300">
-        Characters
+        {{ t("characters") }}
       </h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2">
